@@ -11,7 +11,6 @@ I specialize in **React** for building intuitive user interfaces and **Python** 
 ### My Journey
 
 - **2025**: Graduated from Moringa School with expertise in full-stack development.
-- **2024**: Built and deployed my first React + Python application.
 - **Now**: Working as a Junior Developer, continuing to grow professionally.
 - **Future**: Committed to lifelong learning and exploring new technologies.
 
