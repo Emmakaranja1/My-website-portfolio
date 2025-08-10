@@ -59,15 +59,15 @@ All colors MUST be HSL.
     --transition-spring: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     /* Typography scale */
-    --font-size-xs: 0.875rem;
-    --font-size-sm: 1rem;
-    --font-size-base: 1.125rem;
-    --font-size-lg: 1.25rem;
-    --font-size-xl: 1.5rem;
-    --font-size-2xl: 1.75rem;
-    --font-size-3xl: 2.125rem;
-    --font-size-4xl: 2.5rem;
-    --font-size-5xl: 3.25rem;
+    --font-size-xs: 3.5rem;
+    --font-size-sm: 4rem;
+    --font-size-base: 4.5rem;
+    --font-size-lg: 5rem;
+    --font-size-xl: 6rem;
+    --font-size-2xl: 7rem;
+    --font-size-3xl: 8.5rem;
+    --font-size-4xl: 10rem;
+    --font-size-5xl: 13rem;
   }
 
   .dark {

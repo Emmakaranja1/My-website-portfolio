@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import kellyHeadshot from '@/assets/emma.jpg';
+import Emma from '@/assets/emma.jpg';
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -161,8 +161,8 @@ const Hero = () => {
             >
               <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden shadow-large gradient-card p-2">
                 <img
-                  src={kellyHeadshot}
-                  alt="Kelly Koome"
+                  src={Emma}
+                  alt="Emma Karanja"
                   className="w-full h-full object-cover rounded-full"
                 />
               </div>

@@ -101,7 +101,7 @@ const Navigation = () => {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.8 }}
             >
-              <a href="/Emma-Karanja-Resume (1).pdf" download="Emma-Karanja-Resume (1).pdf">
+              <a href="/EmmaKaranjaResume (1) (4).pdf" download="EmmaKaranjaResume (1) (4).pdf">
                 <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
                   <Download size={16} className="mr-2" />
                   Resume
@@ -158,7 +158,7 @@ const Navigation = () => {
                 })}
               </div>
 
-              <a href="/Emma-Karanja-Resume (1).pdf" download="Emma-Karanja-Resume (1).pdf">
+              <a href="/EmmaKaranjaResume (1) (4).pdf" download="EmmaKaranjaResume (1) (4).pdf">
                 <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground w-fit">
                   <Download size={16} className="mr-2" />
                   Resume

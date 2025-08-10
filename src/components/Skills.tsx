@@ -105,7 +105,7 @@ const Skills = () => {
     'Problem Solving: Real-time debugging, system diagnostics, iterative improvements'
   ];
   return (
-    <section id="skills" className="py-20 bg-secondary/30">
+    <section id="skills" className="py-20 bg-background">
       <div className="container mx-auto px-6">
         {/* Section Header */}
         <motion.div
@@ -135,14 +135,14 @@ const Skills = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: categoryIndex * 0.1, duration: 0.8 }}
                 viewport={{ once: true }}
-                className="gradient-card rounded-2xl p-6 shadow-medium hover-lift flex flex-col"
+                className="gradient-card rounded-2xl p-6 shadow-medium hover-lift flex flex-col group"
               >
                 {/* Category Header */}
                 <div className="flex items-center space-x-3 mb-6">
-                  <div className={`p-2 rounded-lg bg-accent ${category.color}`}>
-                    <Icon size={24} />
+                  <div className={`p-3 rounded-lg bg-primary/10 ${category.color} transition-colors duration-300 group-hover:bg-primary/20`}>
+                    <Icon size={28} />
                   </div>
-                  <h3 className="text-xl font-semibold text-foreground">{category.title}</h3>
+                  <h3 className="text-2xl font-semibold text-foreground">{category.title}</h3>
                 </div>
 
                 {/* Skills Tags */}
@@ -154,14 +154,14 @@ const Skills = () => {
                       whileInView={{ opacity: 1, scale: 1 }}
                       transition={{ delay: (categoryIndex * 0.1) + (skillIndex * 0.05), duration: 0.4 }}
                       viewport={{ once: true }}
-                      className="relative group"
+                      className="relative group/skill"
                     >
-                      <span className="inline-block px-4 py-2 bg-accent text-accent-foreground rounded-lg text-sm font-medium cursor-pointer transition-colors hover:bg-primary hover:text-primary-foreground">
+                      <span className="inline-block px-4 py-2 bg-accent/20 text-accent-foreground rounded-full text-sm font-medium cursor-pointer transition-all duration-300 hover:bg-primary/50 hover:text-primary-foreground hover:scale-105">
                         {skill.name}
                       </span>
-                      <div className="absolute z-10 bottom-full mb-2 w-60 p-3 bg-background border border-border rounded-lg shadow-xl opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out pointer-events-none transform scale-95 group-hover:scale-100 origin-bottom">
+                      <div className="absolute z-10 bottom-full left-1/2 -translate-x-1/2 mb-2 w-64 p-3 bg-card border border-border rounded-lg shadow-xl opacity-0 group-hover/skill:opacity-100 transition-all duration-300 ease-in-out pointer-events-none transform scale-95 group-hover/skill:scale-100 origin-bottom">
                         <p className="text-sm text-muted-foreground font-normal">{skill.description}</p>
-                        <div className="absolute bottom-[-4px] left-1/2 -translate-x-1/2 w-2 h-2 bg-background border-r border-b border-border transform rotate-45"></div>
+                        <div className="absolute bottom-[-4px] left-1/2 -translate-x-1/2 w-2 h-2 bg-card border-r border-b border-border transform rotate-45"></div>
                       </div>
                     </motion.div>
                   ))}
