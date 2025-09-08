@@ -46,9 +46,10 @@ const About = () => {
     },
     {
       year: 'Now',
-      title: 'Junior Developer – Actively Seeking Internship',
-      description: 'Beginning my professional journey in software engineering. Eager to apply my skills in React, Python, and IT fundamentals within a real-world environment, contribute to meaningful projects, and continue growing through mentorship and hands-on experience.',
+      title: 'Backend Developer Intern – Meraki Systems (Contractor for KCB Bank)',
+      description: 'Currently working as a Backend Developer Intern at Meraki Systems, a contractor for KCB Bank. Contributing to backend development tasks, gaining practical experience with real-world banking systems, and enhancing my skills in software engineering while collaborating with senior developers.',
       color: 'text-primary'
+
     },
 
 
@@ -105,9 +106,11 @@ const About = () => {
                   excellence with meaningful, real-world results.
                 </p>
                 <p>
-                  Outside of coding, I enjoy exploring new technologies, contributing to open-source projects, and mentoring
-                  aspiring developers. I’m eager to bring my dedication, adaptability, and problem-solving skills to a
-                  forward-thinking team where I can contribute, grow, and help create innovative solutions.
+                  Outside of coding, I enjoy exploring new technologies, contributing to open-source projects, mentoring
+                  aspiring developers, playing video games, and exploring cybersecurity. I’m eager to bring my dedication,
+                  adaptability, and problem-solving skills to a forward-thinking team where I can contribute, grow,
+                  and help create innovative solutions.
+
                 </p>
 
               </div>

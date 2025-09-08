@@ -26,6 +26,7 @@ const Skills = () => {
         { name: 'Tailwind CSS', description: 'Utility-first CSS framework' }
       ]
     },
+
     {
       title: 'Backend Development',
       icon: Server,
@@ -34,6 +35,8 @@ const Skills = () => {
         { name: 'Python', description: 'Flask, FastAPI development' },
         { name: 'Flask', description: 'RESTful API development' },
         { name: 'Node.js', description: 'Server-side JavaScript' },
+        { name: 'Java', description: 'Enterprise backend applications' },
+        { name: 'Spring Boot', description: 'Java-based REST APIs & microservices' },
         { name: 'RESTful APIs', description: 'API design & implementation' },
         { name: 'Authentication', description: 'JWT, OAuth integration' }
       ]
@@ -45,6 +48,7 @@ const Skills = () => {
       skills: [
         { name: 'PostgreSQL', description: 'Relational database design' },
         { name: 'MongoDB', description: 'NoSQL document database' },
+        { name: 'Oracle', description: 'Enterprise-grade relational database' },
         { name: 'SQLAlchemy', description: 'Python ORM' },
         { name: 'Database Design', description: 'Schema optimization' }
       ]
@@ -56,30 +60,8 @@ const Skills = () => {
       skills: [
         { name: 'Git & GitHub', description: 'Version control & collaboration' },
         { name: 'VS Code', description: 'Development environment' },
-        { name: 'Docker', description: 'Containerization basics' },
+        { name: 'Docker', description: 'Containerization and deployment' },
         { name: 'Postman', description: 'API testing & documentation' }
-      ]
-    },
-    {
-      title: 'Testing & Debugging',
-      icon: TestTube,
-      color: 'text-yellow-500',
-      skills: [
-        { name: 'Pytest', description: 'Unit and integration testing for Python' },
-        { name: 'Jest & RTL', description: 'JavaScript testing and component testing' },
-        { name: 'npm test', description: 'Running test suites in Node.js projects' },
-        { name: 'CLI Debugging', description: 'Browser and server-side debugging' }
-      ]
-    },
-    {
-      title: 'Design & UX',
-      icon: Palette,
-      color: 'text-pink-500',
-      skills: [
-        { name: 'UI/UX Design', description: 'User-centered design' },
-        { name: 'Figma', description: 'Design prototyping' },
-        { name: 'Responsive Design', description: 'Mobile-first approach' },
-        { name: 'Accessibility', description: 'Inclusive design principles' }
       ]
     },
     {
@@ -90,9 +72,11 @@ const Skills = () => {
         { name: 'Vercel', description: 'Frontend deployment' },
         { name: 'Heroku', description: 'Full-stack applications' },
         { name: 'Netlify', description: 'Static site deployment' },
-        { name: 'AWS Basics', description: 'Cloud services fundamentals' }
+        { name: 'AWS Basics', description: 'Cloud services fundamentals' },
+        { name: 'Azure', description: 'Microsoft cloud infrastructure' }
       ]
     }
+
   ];
 
   const additionalSkills = [
