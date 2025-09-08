@@ -35,7 +35,7 @@ const About = () => {
     {
       year: '2024',
       title: 'Graduated as an IT Specialist – KCA University',
-      description: 'Earned a diploma in Information Technology, specializing in computer hardware, networking, database management, operating systems, project management, cybersecurity, and software engineering principles.',
+      description: 'Specialized in computer hardware, networking, database management, operating systems, project management, cybersecurity, and software engineering principles.',
       color: 'text-primary'
     },
     {
